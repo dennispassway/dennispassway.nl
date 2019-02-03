@@ -171,6 +171,16 @@ export default class Index extends Component {
           <meta name='msapplication-config' content='/static/favicons/browserconfig.xml' />
           <meta name='theme-color' content='#ffffff' />
 
+          <script async src='https://www.googletagmanager.com/gtag/js?id=UA-28153061-4' />
+          <script dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-28153061-4');
+          `}} />
+
           <link rel='stylesheet' href='/static/f/floepie.css' />
         </Head>
 
