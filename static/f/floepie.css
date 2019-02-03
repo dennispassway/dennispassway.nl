@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Walsheim';
+  src: url('/static/f/ffcb3030e84a077c99973589259f3dc5.woff2') format('woff2'),
+    url('/static/f/ffcb3030e84a077c99973589259f3dc5.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Walsheim';
+  src: url('/static/f/991d872b1ad88214f05cfda6e9e3bb07.woff2') format('woff2'),
+    url('/static/f/991d872b1ad88214f05cfda6e9e3bb07.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
